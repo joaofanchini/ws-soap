@@ -8,6 +8,6 @@ public class Main {
         String url = "http://localhost:8080/stockws";
 
         System.out.println("Iniciando serviço SOAP");
-        Endpoint.publish(url,stockWS);
+        Endpoint.publish(url, stockWS);
     }
 }
